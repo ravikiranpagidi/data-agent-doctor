@@ -1,0 +1,10 @@
+[project]
+name = "risky-data-agent"
+version = "0.0.0"
+dependencies = [
+  "openai",
+  "airflow",
+  "langgraph",
+  "pyspark"
+]
+

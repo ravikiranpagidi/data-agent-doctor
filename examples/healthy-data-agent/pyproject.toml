@@ -1,0 +1,9 @@
+[project]
+name = "healthy-data-agent"
+version = "0.0.0"
+dependencies = [
+  "openai",
+  "great-expectations",
+  "opentelemetry-api"
+]
+

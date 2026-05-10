@@ -1,0 +1,25 @@
+name: Rule request
+description: Propose a new scanner rule.
+title: "[Rule]: "
+labels: ["rule idea"]
+body:
+  - type: input
+    id: rule-name
+    attributes:
+      label: Rule idea
+      placeholder: "Example: detect Airflow AI tasks without retries"
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: What risk or gap should this catch?
+      description: Explain why this matters for data-agent projects.
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Share code snippets, projects, or false positives to consider.
+

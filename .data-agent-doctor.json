@@ -1,0 +1,7 @@
+{
+  "skip_rules": [],
+  "ignore_paths": [
+    "examples/risky-data-agent/"
+  ],
+  "max_files": 3000
+}
